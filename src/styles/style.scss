@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Display:wght@100&family=Megrim&display=swap');
+
+/* Variables */
+$heading: 'Megrim', cursive;
+$script: 'Big Shoulders Inline Display', cursive;
+// $para: 
+
+/* Screensize */
+$mobile: 500px;
+$tablet: 900px;
+$desktop: 901px;
+
+/* Components */
+@mixin flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Global */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+}
+
+
+
+//==============================================================================//
+/* NAV */
+
+.nav {
+    border-bottom: 1px solid black;
+    &__list {
+        display: flex;
+        justify-content: space-around;
+        margin: 0% 10%;
+        padding: 20px;
+
+        // border: 1px solid black;
+    }
+}
