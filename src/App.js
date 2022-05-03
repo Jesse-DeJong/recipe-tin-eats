@@ -7,7 +7,7 @@ import Home from "./pages/home";
 function App() {
   return (
     <Router>
-      <Nav />
+      {/* <Nav /> */}
       <Routes>
         <Route exact path="/" element={<Home />} />
       </Routes>
