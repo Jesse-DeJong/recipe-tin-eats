@@ -9,7 +9,6 @@ import OneThird from '../components/onethird';
 import CardAdList from '../components/cardAdList';
 import firstData from '../data/firstCardData';
 
-
 const Home = () => {
     return (
         <>
@@ -27,6 +26,8 @@ const Home = () => {
                 <TwoThirds/>
                 <OneThird/>
             </section>
+
+
         </>
     )
 }

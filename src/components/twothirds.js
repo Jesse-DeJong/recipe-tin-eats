@@ -3,6 +3,9 @@ import '../styles/style.css';
 
 import BigCard from './bigCard';
 
+import CardArticleList from '../components/cardArticleList';
+import secondData from '../data/secondCardData';
+
 const TwoThirds = () => {
     return (
         <section className='twothirds'>
@@ -13,7 +16,10 @@ const TwoThirds = () => {
                 description={`I'M STILL HERE! How are you?? I've missed chatting to you! Here's what's been going down in my world. Tell me what you've been up to - I want to know! All cookbook ...`}
                 category='COOKBOOK'
             />
-
+            <section className='twothirds__cardarticle'>
+                <CardArticleList secondCardData={secondData}/>
+            </section>
+            <p>BROWSE ALL LATEST POSTS {'>'}</p>
         </section>
     )
 }

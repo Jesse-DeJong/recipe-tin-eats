@@ -16,7 +16,6 @@ const OneThird = () => {
             />
             <Signup/>
             <Dozer/>
-
         </section>
     )
 }
