@@ -116,6 +116,9 @@
 }
 
 /* Two Thirds */
+.twothirds {
+  margin-left: 10%;
+}
 .twothirds__heading {
   font-size: 36px;
   font-family: "Raleway", sans-serif;
@@ -123,12 +126,17 @@
 }
 
 /* One Third */
+.onethird {
+  margin-left: 50px;
+  margin-right: 10%;
+}
+
 /* Search */
 .search {
   display: inline-block;
 }
 .search__placeholder {
-  width: 200%;
+  width: 160%;
   padding: 7px 15px;
   border: 1px solid grey;
   border-radius: 25px;
@@ -140,12 +148,11 @@
   flex-direction: column;
   background-color: lightgrey;
   margin-top: 80px;
-  margin-right: 10%;
 }
 .authorcard__img {
   max-width: 150px;
   border-radius: 50%;
-  transform: translate(85%, -40%);
+  transform: translate(60%, -40%);
 }
 .authorcard__title {
   text-align: center;
@@ -172,12 +179,11 @@
   transform: translate(0%, -50%);
 }
 
-/* Search */
+/* Signup */
 .signup {
   display: flex;
   flex-direction: column;
   background-color: #183354;
-  margin-right: 10%;
   margin-top: 30px;
 }
 .signup__heading {
@@ -253,14 +259,11 @@
 .bigcard {
   display: flex;
   flex-direction: column;
-  background-color: white;
-  max-width: 350px;
-  margin: 0px 10px;
+  background-color: #dce8e8;
 }
 .bigcard__img {
   margin-bottom: 10px;
   object-fit: cover;
-  max-height: 300px;
 }
 .bigcard__label {
   background-color: white;
@@ -287,9 +290,8 @@
 .bigcard__desc {
   padding: 15px;
   text-align: center;
-  color: lightgrey;
   font-size: 12px;
-  font-family: "Raleway", sans-serif;
+  margin: 0% 5%;
 }
 .bigcard__list {
   display: flex;
@@ -301,4 +303,7 @@
   color: white;
   padding: 7px 15px;
   letter-spacing: normal;
+  max-width: fit-content;
+  align-self: center;
+  margin: 2% 0%;
 }

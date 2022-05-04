@@ -163,6 +163,7 @@ $desktop: 901px;
 /* Two Thirds */
 
 .twothirds {
+    margin-left: 10%;
     &__heading {
         font-size: 36px;
         font-family: $Raleway;
@@ -173,6 +174,11 @@ $desktop: 901px;
 //==============================================================================//
 /* One Third */
 
+.onethird {
+    margin-left: 50px;
+    margin-right: 10%;
+}
+
 //==============================================================================//
 /* Search */
 
@@ -180,7 +186,7 @@ $desktop: 901px;
     display: inline-block;
 
     &__placeholder {
-        width: 200%;
+        width: 160%;
         padding: 7px 15px; // replace with width matching the third
         border: 1px solid grey;
         border-radius: 25px;
@@ -196,12 +202,11 @@ $desktop: 901px;
 
     background-color: lightgrey;
     margin-top: 80px;
-    margin-right: 10%;
 
     &__img {
         max-width: 150px;
         border-radius: 50%;
-        transform: translate(85%,-40%);
+        transform: translate(60%,-40%);
     }
 
     &__title {
@@ -233,13 +238,13 @@ $desktop: 901px;
 }
 
 //==============================================================================//
-/* Search */
+/* Signup */
 
 .signup {
     display: flex;
     flex-direction: column;
     background-color: #183354;
-    margin-right: 10%;
+
     margin-top: 30px;
 
     &__heading {
@@ -328,16 +333,12 @@ $desktop: 901px;
 .bigcard {
     display: flex;
     flex-direction: column;
-    background-color: white;
-
-    max-width: 350px;
-    margin: 0px 10px;
+    background-color: #dce8e8;
 
     &__img {
         margin-bottom: 10px;
         object-fit: cover;
 
-        max-height: 300px;
     }
 
     &__label {
@@ -368,9 +369,8 @@ $desktop: 901px;
     &__desc {
         padding: 15px;
         text-align: center;
-        color: lightgrey;
         font-size: 12px;
-        font-family: $Raleway;
+        margin: 0% 5%;
     }
 
     &__list {
@@ -384,5 +384,8 @@ $desktop: 901px;
         color: white;
         padding: 7px 15px;
         letter-spacing: normal;
+        max-width: fit-content;
+        align-self: center;
+        margin: 2% 0%;
     }
 }
