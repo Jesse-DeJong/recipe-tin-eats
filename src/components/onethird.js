@@ -1,6 +1,7 @@
 import '../styles/reset.css';
 import '../styles/style.css';
 import AuthorCard from './authorcard';
+import Dozer from './dozer';
 import Search from './search';
 import Signup from './signup';
 
@@ -14,6 +15,8 @@ const OneThird = () => {
                 img='https://www.recipetineats.com/wp-content/uploads/2018/12/nagi.jpg?resize=125,125'
             />
             <Signup/>
+            <Dozer/>
+
         </section>
     )
 }
